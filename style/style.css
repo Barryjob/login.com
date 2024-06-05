@@ -1,0 +1,399 @@
+@charset "utf-8";
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#f6f7f7;
+}
+
+.background .background-in{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-image: url(../all-image/body-image/afootech1.jpg);
+    min-height: 350px;
+}
+
+.background-in .body-in{
+    width: 80%;
+    min-height: 350px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.background-in .body-in .body-one{
+    width: 49.9%;
+    height:500px ;
+    background-color: #b9bdbd;
+    float: left;
+    opacity: 0.9;
+    padding-top: 30px;
+}
+
+.background-in .body-in .body-one .home-log{
+    width: 50%;
+    height: 30px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.background-in .body-in .body-one .text-logo{
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.background-in .body-in .body-one .home-log span{
+ font-size: 12px;
+}
+
+.background-in .body-in .body-one .home-log a{
+    color: #eb0f0f;
+    text-decoration: none;
+   }
+
+.background-in .body-in .body-one .text-logo .text-div{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+.background-in .body-in .body-one .text-logo .text-div h1{
+    font-size: 30px;
+}
+
+.background-in .body-in .body-one .text-logo .text-div hr{
+   width: 38%;
+   height: 2px;
+   background-color: rgb(37, 6, 151);
+}
+   
+.background-in .body-in .body-one .text-logo .logo{
+    width: 42%;
+    height: 53px;
+    margin: auto;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.background-in .body-in .body-one .text-logo .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 60px;
+}
+
+@media all and (max-width:750px) {
+	.background-in .body-in .body-one{
+		display: none;
+	}
+}
+
+.background-in .body-in .body-two{
+    width: 49.9%;
+    height:500px ;
+    background-color: #1a1b1b;
+    float: right;
+    opacity: 0.9;
+    padding-top: 30px;
+}
+
+.background-in .body-in .body-two .reset-main-div .logo-div{
+    width: 100%;
+    height: 55px;
+    margin: auto;
+
+}
+
+.background-in .body-in .body-two .logo-div .main-logo-div{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+
+}
+
+.background-in .body-in .body-two .logo-div .main-logo-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.background-in .body-in .body-two .reset-main-div .login-details{
+    width: 100%;
+    min-height:40px;
+    margin: auto;
+    vertical-align: top;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #f6f7f7;
+}
+
+.background-in .body-in .body-two .login-details hr{
+    width: 15%;
+    height:1px;
+    color: #19026b;
+    margin:10px 0px;
+    font-weight: 200px;
+
+}
+
+.background-in .body-in .body-two .reset-main-div .form-div{
+    width: 100%;
+    height:200px;
+    margin: auto;
+    margin-top: 10px;
+}
+.background-in .body-in .body-two .form-div label{
+   font-size: 12px;
+   color: #f6f7f7;
+}
+.background-in .body-in .body-two .form-div i{
+    font-size: 12px;
+    color: #f6f7f7;
+ }
+
+ .background-in .body-in .body-two .form-div input{
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 8px;
+ }
+
+ .background-in .body-in .body-two .form-div button{
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+    height: 40px;
+    background-color: rgb(36, 14, 160);
+    color: #f6f7f7;
+    
+ }
+
+ .background-in .body-in .body-two .reset-main-div .forget-reset{
+    width: 100%;
+    min-height:40px;
+    margin: auto;
+    margin-top: 20px;
+    border: #e27f0d 1px solid;
+}
+.background-in .body-in .body-two .forget-reset button{
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+    color: #f6f7f7;
+}
+
+.background-in .body-in .body-two .forget-reset .reset{
+    text-transform: capitalize;
+}
+
+@media all and (max-width:750px) {
+	.background-in .body-in .body-two{
+		width: 100%;
+		margin: auto;
+	}
+}
+
+@media all and (max-width:336px) {
+	.background-in .body-in .body-two{
+		width: 100%;
+		margin: auto;
+	}
+
+    .background-in .body-in .body-two .exiting-here .login-here{
+        margin-left: 0px;
+    }
+}
+
+
+.background-in .body-in .body-two .reset-main-div{
+    width: 80%;
+    min-height: 350px;
+    margin: auto;
+}
+
+.background-in .body-in .body-two .reset-main-div-one{
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.background-in .body-in .body-two  .reset-main-div-one .reset-div{
+    width: 100%;
+    height: 30px;
+    border: #125e0f 1px solid;
+    color: #f6f7f7;
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.background-in .body-in .body-two .reset-div span{
+    font-size: 11px;
+    font-weight:100px ;
+}
+
+.background-in .body-in .body-two .reset-div i{
+    font-size: 11px;
+    font-weight:100px ;
+    
+    margin-left: 5px;
+}
+.background-in .body-in .body-two .exiting-here{
+    width: 100%;
+    min-height: 40px;
+    border: #e27f0d 1px solid;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.background-in .body-in .body-two .exiting-here button{
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #f6f7f7;
+}
+
+.background-in .body-in .body-two .exiting-here .login-here{
+    margin-left: -7px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+
+@media all and (max-width:336px) {
+    .background-in .body-in .body-two .exiting-here .login-here{
+        margin-left: 10px;
+    }
+}
+
+.background-in .body-in .body-div-in{
+    width: 60%;
+    min-height: 450px;
+    margin: auto;
+    background-color: #ecf0f0;
+    border-top-right-radius: 5px;
+    border-top-left-radius:5px ;
+}
+
+.background-in .body-in .forget-div-form{
+    width: 92%;
+    min-height: 400px;
+    margin: auto;
+    /* background-color: #518888; */
+}
+
+.background-in .body-in .forget-div-form .title-icon{
+    width: 100%;
+    height: 40px;
+}
+.background-in .body-in .forget-div-form .title-icon{
+    width: 100%;
+    height: 40px;
+}
+
+.background-in .body-in .forget-div-form .title-icon .title{
+    width: 60%;
+    height: 30px;
+    font-size: 11px;
+    padding-top: 10px;
+    float: left;
+}
+
+.background-in .body-in .forget-div-form .title-icon .bi-x-circle-fill{
+    float: right;
+    margin-top: 8px;
+    font-size: 24px;
+    color: #eb0f0f;
+}
+
+.background-in .body-in .forget-div-form .instruction{
+    width: 100%;
+    min-height: 40px;
+    background-color: #e4f7f7;
+    border: #13dfdf 1px solid;
+    font-size: 13px;
+}
+
+.background-in .body-in .forget-div-form .instruction .for{
+   color: #3a09ec;
+}
+
+.background-in .body-in .forget-div-form .otp-div{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.background-in .body-in .forget-div-form .otp-div label{
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.background-in .body-in .forget-div-form .otp-div input{
+    width: 99%;
+    margin-top: 6px;
+    border-color: #518888 1px solid;
+    height: 30px;
+
+}
+.background-in .body-in .forget-div-form .otp-div  input .placeholder{
+    font-size: 10px;
+
+}
+
+.background-in .body-in .forget-div-form .re-re{
+    width: 100%;
+    height: 40px;
+    background-color: #f7e4ed;
+    margin-top: 25px;
+}
+
+.background-in .body-in .forget-div-form .re-re p{
+    font-size: 14px;
+}
+
+.background-in .body-in .forget-div-form .re-re span{
+    color: #3a09ec;
+}
+
+.background-in .body-in .forget-div-form p{
+    font-size: 12px;
+
+}
+
+.background-in .body-in .forget-div-form button{
+    font-size: 12px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: #4a3692;
+    color: #e4f7f7;
+    margin-bottom: 10px;
+}
+
+.background-in .body-in .body-two .footer-div{
+    width: 100%;
+    height: 80px;
+    background-color: #46d4d4;
+}
+
+@media all and (max-width:678px) {
+    .background-in .body-in .body-div-in{
+        width: 100%;
+    }
+}
+
