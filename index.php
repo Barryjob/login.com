@@ -25,46 +25,97 @@
    <div class="background-in">
       <div class="body-in">
          
-         <?php include 'body-one.php'?>
+       <div class="body-one">
+         <div class="home-log">
+            <span> <a href="index.php"><i class="bi bi-house-door-fill">HOME PAGE</i></a></span> |  <span><a href="index.php"><i class="bi bi-person-fill-lock">LOG-IN </i></a></span>
+
+         </div>
+            <div class="text-logo">
+               <div class="text-div">
+                  <h1>AfooTech Login System Administration Portal</h1>
+                  <hr>
+               </div>
+               <div class="logo">
+               <img src="all-image/body-image/afootech logo2.png" alt="">
+               </div>
+            </div>
+         </div>
+
+
 
          <div class="body-two">
             <div class="reset-main-div">
-            <div class="logo-div">
+
+               <div class="logo-div">
                   <div class="main-logo-div">
                      <img src="all-image/body-image/afoologo.jpg" alt="">
                   </div>
-            </div>
+               </div>
+
                <div class="login-details">
-                     <i class="bi bi-person-circle"></i>
-                     <span>Administrative Log-in</span>
-                     <hr>
+                  <span><i class="bi bi-person-circle"></i>Administrative Log-in</span>
+                  <hr>
                </div>
                
-               <div class="form-div">
+                  
+               <div class="form-div" id="next_1">
                   <form action="">
-                  <i class="bi bi-person"></i>
-                     <label for="email">Email Address:</label><br>
+                     <i class="bi bi-person"></i>
+                     <label for="email">Email Address:</label>
                      <input type="text" id="email" name="email" placheholder=" e.g barrygodlikej@gmail">
                      <br><br>
                      <i class="bi bi-lock"></i>
-                     <label for="password">Password:</label> <br>
+                     <label for="password">Password:</label> 
                      <input type="password" id="password" name="password">
                   </form>
-                  <br> 
+               
                   <a href=""><button>Log-In</button></a>
                </div>
 
+              
                <div class="forget-reset">
-                  <a href="forget.php"><button class="forget">Forget Password?</button></a>
-                  <a href="reset.php"><button class="reset">Reset Password</button></a>
+               <div class="text">Forget Password?<span>Reset Password</span></div> 
                </div>
+
             </div>
+
+
+
+
+            <!-- <div class="reset-main-div">
+
+               <div class="login-details">
+                  <span><i class="bi bi-person-circle"></i>RESET PASSWORD</span>
+                  <hr>
+               </div>
+
+                  
+               <div class="form-div" id="next_2">
+                  <form action="">
+                     <i class="bi bi-person"></i>
+                     <label for="email">Email Address:</label>
+                     <input type="text" id="email" name="email" placheholder=" e.g barrygodlikej@gmail">
+                  </form>
+
+                  <a href=""><button>Proceed</button></a>
+               </div>
+
+
+               <div class="forget-reset">
+               <div class="text"> Existing User?<span>Login Here</span></div> 
+               </div>
+
+            </div> -->
+
+
+
+
 
          </div>
             
             <?php include 'footer.php'?>
       </div>
-                            
+                           
    </div>
  </section>
  

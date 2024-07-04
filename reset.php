@@ -1,31 +1,52 @@
 
+    <div class="reset-main-div-one">
+        <div class="reset-div">
+            <i class="bi bi-lock"></i>
+            <span>RESET PASSWORD</span>
+        </div>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http: //www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
+        <div class="form-div">
+            <form action="">
+            <label for="email">Provide an Email Address :</label>
+            <input type="text" id="email" name="email" placeholder=" e.g barrygodlikej@gmail.com">
+            </form>
+            <br>
+            <button>Proceed</button>
+        </div>
 
-<?php include 'meta.php';?>
-</head>
-
-<body>
-
-
-<section class="background">
-   <div class="background-in">
-       <div class="body-in">
-
-            <?php include 'body-one.php'?>
-
-            <?php include 'body-two.php'?>
-
-            
+        <div class="exiting-here">
+            <a href="forget.php"><button class="exiting">Exiting User?</button></a>
             
         </div>
-   </div>
- </section>
 
 
 
-    
-</body>
-</html>
+
+ <div class="reset-main-div">
+
+<div class="login-details">
+   <span><i class="bi bi-person-circle"></i>RESET PASSWORD</span>
+   <hr>
+</div>
+
+   
+<div class="form-div" id="next_2">
+   <form action="">
+      <i class="bi bi-person"></i>
+      <label for="email">Email Address:</label>
+      <input type="text" id="email" name="email" placheholder=" e.g barrygodlikej@gmail">
+   </form>
+
+   <a href=""><button>Proceed</button></a>
+</div>
+
+
+<div class="forget-reset">
+<div class="text"> Existing User?<span>Login Here</span></div> 
+</div>
+
+
+ 
+</div>
+
+ 

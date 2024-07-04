@@ -6,14 +6,18 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 	background-color:#f6f7f7;
 }
-
-.background .background-in{
+ 
+.background-in{
     width: 100%;
     height: 100%;
     position: absolute;
     background-size: cover;
     background-image: url(../all-image/body-image/afootech1.jpg);
     min-height: 350px;
+    display: flex;justify-content: center;
+    align-items: center;
+
+
 }
 
 .background-in .body-in{
@@ -102,18 +106,23 @@ body{
     padding-top: 30px;
 }
 
+.background-in .body-in .body-two .reset-main-div {
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    gap: 20px;
+    align-items: center;
+}
+
 .background-in .body-in .body-two .reset-main-div .logo-div{
     width: 100%;
     height: 55px;
-    margin: auto;
-
 }
 
 .background-in .body-in .body-two .logo-div .main-logo-div{
     width: 55px;
     height: 55px;
     border-radius: 50px;
-
 }
 
 .background-in .body-in .body-two .logo-div .main-logo-div img{
@@ -125,9 +134,7 @@ body{
 .background-in .body-in .body-two .reset-main-div .login-details{
     width: 100%;
     min-height:40px;
-    margin: auto;
     vertical-align: top;
-    margin-top: 15px;
     font-size: 20px;
     color: #f6f7f7;
 }
@@ -143,10 +150,8 @@ body{
 
 .background-in .body-in .body-two .reset-main-div .form-div{
     width: 100%;
-    height:200px;
-    margin: auto;
-    margin-top: 10px;
 }
+
 .background-in .body-in .body-two .form-div label{
    font-size: 12px;
    color: #f6f7f7;
@@ -159,33 +164,58 @@ body{
  .background-in .body-in .body-two .form-div input{
     border: none;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 3px; 
     height: 40px;
-    margin-top: 8px;
+    margin-top: 6px;
  }
 
- .background-in .body-in .body-two .form-div button{
+
+ .form-div button{
     border: none;
     width: 40%;
-    border-radius: 5px;
+    border-radius: 2px;
     height: 40px;
     background-color: rgb(36, 14, 160);
     color: #f6f7f7;
+ 
     
  }
 
- .background-in .body-in .body-two .reset-main-div .forget-reset{
+ #next_1{
+    display: block;
+ }
+
+ #next_2{
+    display: none;
+ }
+
+ .background-in .body-in .body-two .forget-reset{
     width: 100%;
     min-height:40px;
-    margin: auto;
-    margin-top: 20px;
+    display: flex;
+    align-items: center;
     border: #e27f0d 1px solid;
+    color: #f6f7f7;
+    gap: 4px;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
 }
-.background-in .body-in .body-two .forget-reset button{
+
+.background-in .body-in .body-two .forget-reset .text{
+  margin-left: 15px;
+  display: flex;
+  gap: 4px;
+}
+
+.background-in .body-in .body-two .forget-reset .text span{
     background-color: transparent;
     border: none;
-    margin-top: 10px;
-    color: #f6f7f7;
+    cursor: pointer;
+}
+
+.background-in .body-in .body-two .forget-reset .text span:hover{
+  color: #0c0c0c;
 }
 
 .background-in .body-in .body-two .forget-reset .reset{
@@ -232,8 +262,6 @@ body{
     color: #f6f7f7;
     border-radius: 5px;
     padding-top: 10px;
-    margin-bottom: 20px;
-
 }
 
 .background-in .body-in .body-two .reset-div span{
@@ -260,7 +288,6 @@ body{
     background-color: transparent;
     border: none;
     font-size: 13px;
-    margin-top: 10px;
     margin-left: 10px;
     color: #f6f7f7;
 }
